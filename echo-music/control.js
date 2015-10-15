@@ -245,7 +245,7 @@ iVan.Ui = function(){
             cur.next().find('a').trigger('click');
         },
         loadCss : function(){
-            var fcpCss = 'http://ivan.tunnel.mobi/music/css/style.css';
+            var fcpCss = 'http://zhoulijie.github.io/echo-music/css/style.css';
             $('<link id="_ivan_css_" href="' + fcpCss + '" rel="stylesheet" type="text/css" />').appendTo('head');
         },
         control : function(){
