@@ -1,0 +1,80 @@
+.ivan-active a{
+    color: #337ab7!important;
+    border-bottom: dotted 1px #a9dfbf;
+}
+
+.ivan-list {
+    padding: 10px;
+}
+.ivan-list li{
+    padding: 4px 5px;
+    font-size: 14px;
+}
+
+.ivan-list li a{
+    color: #fff;
+}
+
+#iVan-contains{
+  /* background: #32d1ac; */
+  background: -moz-linear-gradient(-45deg, #32d1ac 0%, #4a90e2 100%);
+  /* background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #32d1ac), color-stop(100%, #4a90e2)); */
+  /* background: -webkit-linear-gradient(-45deg, #32d1ac 0%, #4a90e2 100%); */
+  background: -o-linear-gradient(-45deg, #32d1ac 0%, #4a90e2 100%);
+  background: -ms-linear-gradient(-45deg, #32d1ac 0%, #4a90e2 100%);
+  background: linear-gradient(135deg, #32d1ac 0%, #4a90e2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#32d1ac', endColorstr='#4a90e2', GradientType=1);
+}
+#iVan-contains h5{
+    height: 30px;
+    font-size: 16x;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+#iVan-contains .ivan-playing{
+    color: #337ab7!important;
+}
+.ivan-mcon{
+    padding: 15px 10px 0 0;
+    border-bottom: 1px solid #eee;
+    margin: 0 10px;
+}
+.ivan-mcon p{
+    color: #fff!important;
+}
+
+.ivan-mcon del,.ivan-mcon a,.ivan-mcon span{
+    margin-right: 4px;
+    color: #fff;
+    display: inline-block;
+}
+
+
+/* 分页 */
+.ivan-pagination {
+FONT-SIZE: 12px;FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+WIDTH: 60%; PADDING-LEFT: 25px;
+PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; MARGIN: 7px;
+ PADDING-TOP: 2px; FONT-FAMILY: "Lucida Sans Unicode",
+ "Lucida Grande", LucidaGrande, "Lucida Sans", Geneva, Verdana, sans-serif
+}
+.ivan-pagination A {
+padding: 2px 4px;
+margin: 2px 4px;
+COLOR: #fff;
+BACKGROUND-COLOR: #ee4e4e; TEXT-DECORATION: none
+}
+.ivan-pagination A:hover {
+BACKGROUND-COLOR: #de1818
+}
+.ivan-pagination A:active {
+BACKGROUND-COLOR: #de1818
+}
+.ivan-pagination .ivan-current {
+COLOR: #6d643c;
+BACKGROUND-COLOR: #f6efcc
+}
+.ivan-pagination .ivan-disabled {
+DISPLAY: none
+}
